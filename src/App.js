@@ -6,6 +6,9 @@ const App = () => {
         setCount(count + 1)
     };
 
+    useEffect(()=>{
+        console.log(`eeee`)
+    })
    
     return (
         <div>
