@@ -9,7 +9,9 @@ const App = () => {
     useEffect(()=>{
         console.log(`eeee`)
     })
-   
+    useEffect(()=>{
+        console.log(`eeee`)
+    },[])
     return (
         <div>
         <button onClick={handleCount}>Update</button>
